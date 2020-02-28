@@ -1,0 +1,103 @@
+#purple-color { color: rgb(93, 18, 131) ;
+		}
+    	#p.serif {
+  		#font-family: "Arial", Times, serif;}
+    	#colors{background-color: lightblue;}
+    	body { background-color: rgb(22, 224, 69);}
+
+* {
+        		box-sizing: border-box;
+        	}
+        	
+        	.row {
+        		content: "";
+        		display: table;
+        		clear: both;
+    		}
+    		
+    		.columnLeft{
+    			float: left;
+    			width: 30%;
+    			padding: 20px;
+    		}
+    		
+    		.columnRight{
+    			float: right;
+    			width: 60%;
+    			padding: 20px;
+    		}
+        
+        	.columnLeft2{
+    			float: left;
+    			width: 40%;
+    			padding: 20px;
+        	}
+        	.columnRight2{
+    			float: left;
+    			width: 50%;
+    			padding: 20px;
+        	}
+
+
+		.Rrow {
+        		content: "";
+        		display: table;
+        		clear: both;
+    		}
+    		
+    		.RcolumnLeft{
+    			float: left;
+    			width: 55%;
+    			padding: 20px;
+    		}
+    		
+    		.RcolumnRight{
+    			float: right;
+    			width: 30%;
+    			padding: 20px;
+    		}
+    		
+    		.RcolumnLeft2{
+    			float: left;
+    			width: 45%;
+    			padding: 20px;
+    		}
+    		
+    		.RcolumnRight2{
+    			float: right;
+    			width: 48%;
+    			padding: 20px;
+    		}
+    		.RcolumnLeft3{
+    			float: left;
+    			width: 50%;
+    			padding: 20px;
+    		}
+    		
+    		.RcolumnRight3{
+    			float: right;
+    			width: 43%;
+    			padding: 20px;
+    		}
+
+
+
+ul.nav {
+	list-style-type: none;
+	background-color = green:
+	margin: 0;
+	padding: 0;	
+	overflow: hidden;
+	}
+
+li.nav a{
+	float: left;
+	display: block;
+	color: brown;
+	padding: 8px 16px;
+	}
+
+li.nav a:hover{
+	background-color: purple;
+	color: white;
+	}
