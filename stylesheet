@@ -1,0 +1,32 @@
+* {
+        		box-sizing: border-box;
+        	}
+        	
+        	.row {
+        		content: "";
+        		display: table;
+        		clear: both;
+    		}
+    		
+    		.columnLeft{
+    			float: left;
+    			width: 30%;
+    			padding: 20px;
+    		}
+    		
+    		.columnRight{
+    			float: right;
+    			width: 60%;
+    			padding: 20px;
+    		}
+        
+        	.columnLeft2{
+    			float: left;
+    			width: 40%;
+    			padding: 20px;
+        	}
+        	.columnRight2{
+    			float: left;
+    			width: 50%;
+    			padding: 20px;
+        	}
