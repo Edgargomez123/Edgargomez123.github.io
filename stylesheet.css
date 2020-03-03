@@ -1,12 +1,6 @@
-#purple-color { color: rgb(93, 18, 131) ;
-		}
-    	#p.serif {
-  		#font-family: "Arial", Times, serif;}
-    	#colors{background-color: lightblue;}
-    	body { background-color: rgb(22, 224, 69);}
 
-* {
-        		box-sizing: border-box;
+		* {
+        	 box-sizing: border-box;
         	}
         	
         	.row {
@@ -80,7 +74,16 @@
     			padding: 20px;
     		}
 
-
+			
+			.BcolumnLeft{
+    			float: left;
+    			width: 70%;
+    			padding: 25px;
+    			
+    		.BcolumnRight{
+    			float: left;
+    			width: 28%;
+    			padding: 25px;
 
 ul.nav {
 	list-style-type: none;
@@ -101,3 +104,6 @@ li.nav a:hover{
 	background-color: purple;
 	color: white;
 	}
+	
+	
+	
