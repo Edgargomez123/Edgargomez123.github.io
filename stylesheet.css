@@ -1,9 +1,3 @@
-#purple-color { color: rgb(93, 18, 131) ;
-		}
-    	#p.serif {
-  		#font-family: "Arial", Times, serif;}
-    	#colors{background-color: lightblue;}
-    	body { background-color: rgb(22, 224, 69);}
 
 * {
         		box-sizing: border-box;
@@ -11,37 +5,38 @@
         	
         	.row {
         		content: "";
-        		display: table;
+        		display: table; /* this part sets a table with two rows for my travel page */
         		clear: both;
     		}
     		
     		.columnLeft{
     			float: left;
     			width: 30%;
-    			padding: 20px;
+    			padding: 20px; /* This is my first column in my travel page which is set to be 30% width and it goes on the left side */
     		}
     		
     		.columnRight{
     			float: right;
-    			width: 60%;
+    			width: 60%;    /* This is my second column in my travel page which is set to be 60% width and it goes on the right side */
     			padding: 20px;
     		}
         
         	.columnLeft2{
     			float: left;
-    			width: 40%;
+    			width: 40%;   /* This is my third column in my travel page which is set to be 40% width and it goes on the left side right below my first column*/
     			padding: 20px;
         	}
         	.columnRight2{
     			float: left;
-    			width: 50%;
+    			width: 50%;     /* This is my third column in my travel page which is set to be 50% width and it goes on the right side right below my second column*/
     			padding: 20px;
         	}
 
-
-		.Rrow {
+			/* This next portion of code, is my code I used in my recipe book */
+			
+			.Rrow {
         		content: "";
-        		display: table;
+        		display: table; /* Same thing as before I have multiple columns, but this time I actually used 3 different rows. According to Mr Fender every time I open a table(row) it can only have two columns and then another row needs to be opened. In my travel page I used only one row and I should've used 2 but it still worked, I got lucky. */
         		clear: both;
     		}
     		
@@ -80,7 +75,25 @@
     			padding: 20px;
     		}
 
-
+			.Brow {
+        		content: "";
+        		display: table; /* this part sets a table with two rows for my Blog page */
+        		clear: both;
+			}
+			
+			.BcolumnLeft{
+    			float: left;
+    			width: 70%;
+    			padding: 20px;
+			}
+			
+			.BcolumnRight{
+				float: right;
+    			width: 28%;
+    			padding: 20px;
+				}
+			
+/* These 3 blocks of code create my menu bar */
 
 ul.nav {
 	list-style-type: none;
